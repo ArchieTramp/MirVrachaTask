@@ -1,19 +1,19 @@
 {
   "name": "mirvracha",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github.com/archietramp.git"
+    "url": "git+https://github.com/archietramp.git"
   },
   "author": "Artur Gilyazov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/archietramp/issues"
   },
-  "homepage": "https://github.com/archietramp#readme"
+  "homepage": "https://github.com/archietramp#readme",
+  "description": ""
 }

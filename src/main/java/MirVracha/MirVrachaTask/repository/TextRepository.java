@@ -1,4 +1,8 @@
 package MirVracha.MirVrachaTask.repository;
 
-public interface TextRepository {
+import MirVracha.MirVrachaTask.model.TextModel;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TextRepository extends JpaRepository<TextModel,Long> {
+
 }
