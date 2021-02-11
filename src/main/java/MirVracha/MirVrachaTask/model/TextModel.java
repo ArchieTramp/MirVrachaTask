@@ -3,6 +3,7 @@ package MirVracha.MirVrachaTask.model;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.List;
 
 @ToString
 @Data
@@ -14,10 +15,12 @@ import javax.persistence.*;
 @Table(name = "mirvrachadb", uniqueConstraints = @UniqueConstraint(columnNames = {"id"}))
 public class TextModel {
 
+    @OneToMany(mappedBy = "main")
+    private List<ListSaver> listSavers;
+
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String paragraph;
 
 
 }
+
